@@ -46,6 +46,7 @@ columns = 4
 for row in range(1, rows + 1):
     for seats in range(1, columns + 1):
         print(f"Seat {seats}", end=" ")
+
     print()  # print() is used to print a new line
 
 # left angle traingle
@@ -71,3 +72,4 @@ for bus in busRoutes:
         print("Found the bus")
         break
     print("checking for bus....")
+    
