@@ -63,3 +63,10 @@ bus2 = {"Madhapur", "Kukatpally", "Miyapur","JNTU", "Gachibowli", "Koti"}
 commonStops = bus1 & bus2
 print(f"Common stops between bus1 and bus2 are {commonStops}")
 
+
+# Left over methods:
+# discard() : removes an element from the set if it is a member
+# pop() : removes and returns an arbitrary set element
+# clear() : removes all elements from the set
+
+
