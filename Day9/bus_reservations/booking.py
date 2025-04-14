@@ -1,4 +1,4 @@
-from bus_reservations import availableRoutes, updateSeats
+from . import availableRoutes, updateSeats
 
 
 def bookTicket(name, busNo, seats):

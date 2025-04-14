@@ -29,4 +29,3 @@ def availableRoutes():
 def updateSeats(busNo, seatsBooked):
     if busNo in buses:
         buses[busNo]["available_seats"] -= seatsBooked
-        # buses[busNo]["available_seats"] -= seatsBooked
